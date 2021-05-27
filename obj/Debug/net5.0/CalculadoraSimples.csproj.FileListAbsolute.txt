@@ -1,0 +1,16 @@
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\bin\Debug\net5.0\CalculadoraSimples.exe
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\bin\Debug\net5.0\CalculadoraSimples.deps.json
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\bin\Debug\net5.0\CalculadoraSimples.runtimeconfig.json
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\bin\Debug\net5.0\CalculadoraSimples.runtimeconfig.dev.json
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\bin\Debug\net5.0\CalculadoraSimples.dll
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\bin\Debug\net5.0\ref\CalculadoraSimples.dll
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\bin\Debug\net5.0\CalculadoraSimples.pdb
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.csprojAssemblyReference.cache
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.AssemblyInfoInputs.cache
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.AssemblyInfo.cs
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.csproj.CoreCompileInputs.cache
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.dll
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\ref\CalculadoraSimples.dll
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.pdb
+C:\Users\Marques\Desktop\Projetos C#\CalculadoraSimples\obj\Debug\net5.0\CalculadoraSimples.genruntimeconfig.cache
