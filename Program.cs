@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace CalculadoraSimples
 {
@@ -6,29 +7,35 @@ namespace CalculadoraSimples
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Formatação do console
+            Console.Title = "Calculadora - CONSOLE";
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.ForegroundColor = ConsoleColor.Black;
         inicio:
             Console.Clear();
-            Console.WriteLine("Projeto Calculádora CMD");
+            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("--------Simples Calculadora no Console--------");
+            Console.WriteLine("----------------------------------------------");
 
-            Console.WriteLine("Com base nas alternativas abaixo, digite o número que se adeque a operação desejada");
+            
+            Console.WriteLine("Com base nas opções abaixo, digite o número que se adeque a operação desejada: ");
             Console.WriteLine("1 - Adição; ");
             Console.WriteLine("2 - Subtração; ");
             Console.WriteLine("3 - Multiplicação; ");
             Console.WriteLine("4 - Divisão; ");
-            Console.WriteLine("5 - Sair; ");
+            Console.WriteLine("5 - Sair; \n");
             int opcao = int.Parse(Console.ReadLine());
 
 
             switch (opcao)
             {
                 case 1:
-                    Console.WriteLine("Digite o valor de A");
+                    Console.WriteLine("Digite o valor de A: "); 
                     double AdicaovalorA = double.Parse(Console.ReadLine());
-                    Console.WriteLine("Digite o valor de B");
+                    Console.WriteLine("Digite o valor de B: ");
                     double AdicaovalorB = double.Parse(Console.ReadLine());
                     double AdicaovalorTotal = AdicaovalorA + AdicaovalorB;
-                    Console.WriteLine("O valor é de " + AdicaovalorTotal);
+                    Console.WriteLine("O valor resulta em: " + AdicaovalorTotal.ToString("F3", CultureInfo.CurrentCulture));
                     break;
 
 
@@ -39,7 +46,7 @@ namespace CalculadoraSimples
                     Console.WriteLine("Digite o valor de B");
                     double SubtracaovalorB = double.Parse(Console.ReadLine());
                     double SubtracaovalorTotal = SubtracaovalorA - SubtracaovalorB;
-                    Console.WriteLine("O valor é de " + SubtracaovalorTotal);
+                    Console.WriteLine("O valor resulta em: " + SubtracaovalorTotal.ToString("F3", CultureInfo.CurrentCulture));
                     break;
 
                 case 3:
@@ -48,7 +55,7 @@ namespace CalculadoraSimples
                     Console.WriteLine("Digite o valor de B");
                     double MultivalorB = double.Parse(Console.ReadLine());
                     double MultivalorTotal = MultivalorA * MultivalorB;
-                    Console.WriteLine("O valor é de " + MultivalorTotal);
+                    Console.WriteLine("O valor resulta em: " + MultivalorTotal.ToString("F3", CultureInfo.CurrentCulture));
                     break;
                 case 4:
                     Console.WriteLine("Digite o valor de A");
@@ -56,13 +63,13 @@ namespace CalculadoraSimples
                     Console.WriteLine("Digite o valor de B");
                     double DividvalorB = double.Parse(Console.ReadLine());
                     double DividvalorTotal = DividvalorA / DividvalorB;
-                    Console.WriteLine("O valor é de " + DividvalorTotal);
+                    Console.WriteLine("O valor resulta em: " + DividvalorTotal.ToString("F3", CultureInfo.CurrentCulture));
                     break;
                 case 5:
                 default:
                     break;
             }
-            Console.WriteLine("Deseja continuar?");
+            Console.WriteLine("\nDeseja continuar?");
             Console.WriteLine("0 - Sair");
             Console.WriteLine("1 - Continuar");
             double opcao2 = double.Parse(Console.ReadLine());
